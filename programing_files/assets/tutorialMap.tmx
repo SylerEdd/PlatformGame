@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="110" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="45">
+ <tileset firstgid="1" name="world_tileset" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="C:/Users/Eddie/Downloads/brackeys_platformer_assets/brackeys_platformer_assets/sprites/world_tileset.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="257" source="C:/Users/Eddie/world_tileset.tsx"/>
+ <layer id="1" name="background" width="110" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIACDtfxnBCDa0hfOAjcqIUlVV9f1Wz46qqqqqqqovL4wQ/Lc=
+  </data>
+ </layer>
+ <layer id="2" name="graphics" width="110" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlk1OwzAQhWtID1CgHICcoCwQsAt/+5YfsS4texBCYokAcW1sYYvR1I7HTlMl4n3SU2unM/b42U4HAwAAAAAAAAAAAAAAAAAA9IljlR97rmMvtC4b5OgLXau1iW/XOvZG67YjtbRJ12o9bTCPBx270Fp2pJY22XSt2yquVCYk5uUfeObYZK27ql5FxlwqEvMpiFdrqPdA/akpk8wctNZn8v0skC/nTDj2mE++dipVC+ct5knItxwPKmGM2W8p4veYWd8yY35v7FyFPExlqmPmWk9aH1rvNgfdd4cCDwwztdpXF2NEx5kKxzwJxDjmto/6MPJoJ9A/8txlbn1Lq3sy7swzh2/rdxm5I52GLMcRa/PnqfuwT+JebNX4xH0s1Oo7iLadf77/GK4/5BE/c0Zj5ssVa/PnvvnT+vieDO3R0JrU7WnJb6Xjx57z/piHKWseel4ov+e+PuPLl9aj9efOfr6q3/fvvsC3lPraWNOUnCnzS8kvudvo2sf8DPlHfRvWSHLeIJlv69RYIMoP/Zs04A==
+  </data>
+ </layer>
+ <objectgroup id="3" name="ground">
+  <object id="3" x="0" y="336" width="256" height="48"/>
+  <object id="5" x="0" y="272" width="16" height="64"/>
+  <object id="6" x="0" y="160" width="16" height="112"/>
+  <object id="12" x="288" y="336" width="512" height="48"/>
+  <object id="15" x="800" y="336" width="448" height="48"/>
+  <object id="16" x="880" y="320" width="368" height="16"/>
+  <object id="17" x="928" y="304" width="288" height="16"/>
+  <object id="18" x="1184" y="288" width="16" height="16"/>
+  <object id="19" x="1248" y="336" width="320" height="48"/>
+  <object id="20" x="1392" y="320" width="176" height="16"/>
+  <object id="21" x="1424" y="256" width="144" height="64"/>
+  <object id="22" x="1568" y="320" width="16" height="48"/>
+  <object id="23" x="1568" y="368" width="144" height="16"/>
+  <object id="24" x="1696" y="320" width="16" height="48"/>
+  <object id="31" x="464" y="288" width="48" height="48"/>
+  <object id="32" x="256" y="320" width="32" height="64"/>
+  <object id="33" x="336" y="304" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="7" name="Texts"/>
+ <objectgroup id="8" name="grapple">
+  <object id="37" x="48" y="240" width="16" height="96"/>
+  <object id="38" x="464" y="288" width="16" height="16"/>
+  <object id="39" x="336" y="304" width="16" height="32"/>
+  <object id="40" x="256" y="320" width="32" height="16"/>
+  <object id="41" x="336" y="304" width="32" height="32"/>
+  <object id="42" x="464" y="288" width="48" height="48"/>
+  <object id="43" x="992" y="240" width="16" height="64"/>
+  <object id="44" x="1424" y="256" width="16" height="64"/>
+ </objectgroup>
+ <objectgroup id="6" name="finish">
+  <object id="26" x="1568" y="304" width="144" height="80"/>
+ </objectgroup>
+</map>
